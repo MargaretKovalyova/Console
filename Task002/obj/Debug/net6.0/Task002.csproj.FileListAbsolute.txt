@@ -1,0 +1,15 @@
+D:\курсы\Task\Task002\bin\Debug\net6.0\Task002.exe
+D:\курсы\Task\Task002\bin\Debug\net6.0\Task002.deps.json
+D:\курсы\Task\Task002\bin\Debug\net6.0\Task002.runtimeconfig.json
+D:\курсы\Task\Task002\bin\Debug\net6.0\Task002.dll
+D:\курсы\Task\Task002\bin\Debug\net6.0\Task002.pdb
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.csproj.AssemblyReference.cache
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.GeneratedMSBuildEditorConfig.editorconfig
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.AssemblyInfoInputs.cache
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.AssemblyInfo.cs
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.csproj.CoreCompileInputs.cache
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.dll
+D:\курсы\Task\Task002\obj\Debug\net6.0\refint\Task002.dll
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.pdb
+D:\курсы\Task\Task002\obj\Debug\net6.0\Task002.genruntimeconfig.cache
+D:\курсы\Task\Task002\obj\Debug\net6.0\ref\Task002.dll
