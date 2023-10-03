@@ -2,25 +2,22 @@
 //  и возводит число A в натуральную степень B.
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
-// Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-// 452 -> 11
-// 82 -> 10
-// 9012 -> 12
 
-
-int SumDigit(int num)
+int Degrees(int number1, int number2)
 {
-    int sum = 0;
-    while (num > 0)
+    int degrees = 1;
+    for (int i = 0; i < number2; i++)
     {
-        sum = sum + num % 10;
-        num = num / 10;
+        degrees *= number1;
     }
-    return sum;
+    return degrees;
 }
 
-Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число A");
+int number1 = Convert.ToInt32(Console.ReadLine());
 
-int resulte = SumDigit(number);
-Console.WriteLine($"{number} -> {resulte}");
+Console.WriteLine("Введите число B");
+int number2 = Convert.ToInt32(Console.ReadLine());
+
+int resulte = Degrees(number1, number2);
+Console.WriteLine($"{number1}, {number2} -> {resulte}");
