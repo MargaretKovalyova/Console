@@ -4,20 +4,23 @@
 // M = 4; N = 8. -> 30
 
 
+
 Console.WriteLine("Введитеи первое натуральное число: ");
 int numberM = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введитеи второе натуральное число: ");
 int numberN = Convert.ToInt32(Console.ReadLine());
 
+if (numberM < 1 || numberN < 1)
+{
+    Console.WriteLine($"Введены некоректные данные");
+    return;
+}
+
 int sum = PrintSumNaturalNumbers(numberM, numberN);
 Console.WriteLine($"{sum}");
-
 
 int PrintSumNaturalNumbers(int numM, int numN)
 {
     if (numM == numN) return numM;
-    else
-    {
-        return numM + PrintSumNaturalNumbers(numM + 1, numN);
-    }
+    return numM + PrintSumNaturalNumbers(numM + 1, numN);
 }
